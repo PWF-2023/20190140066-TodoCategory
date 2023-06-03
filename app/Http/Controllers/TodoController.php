@@ -51,7 +51,6 @@ class TodoController extends Controller
         //     'created_at' => now(),
         //     'updated_at' => now(),
         // ]);
-
         // Eloquent Way - Readable
         $todo = Todo::create([
             'title' => ucfirst($request->title),
