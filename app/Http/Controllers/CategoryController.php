@@ -13,6 +13,7 @@ class CategoryController extends Controller
     public function index()
     {
         $categories = Category::with('todo')->where('user_id', auth()->user()->id)->get();
+        
         return view('category.index', compact('categories'));
     }
 
