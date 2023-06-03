@@ -73,7 +73,6 @@ class TodoController extends Controller
             return redirect()->route('todo.index')->with('danger','You are not authorized to edit this todo!');
         }
     }
-
     public function update(Request $request, Todo $todo)
     {
         $request->validate([
