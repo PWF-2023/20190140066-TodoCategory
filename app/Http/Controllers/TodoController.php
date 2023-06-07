@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Todo;
+use App\Models\Todo; 
 use App\Models\Category;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
