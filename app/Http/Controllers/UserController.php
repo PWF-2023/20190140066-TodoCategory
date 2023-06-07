@@ -33,7 +33,6 @@ class UserController extends Controller
         $user->save();
         return back()->with('success', 'Make admin successfully!');
     }
-
     public function removeadmin(User $user)
     {
         if ($user->id != 1) {
