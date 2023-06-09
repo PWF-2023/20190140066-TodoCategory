@@ -7,9 +7,8 @@ use Illuminate\Foundation\Http\Kernel as HttpKernel;
 class Kernel extends HttpKernel
 {
     /**
-     * The application's global HTTP middleware stack.
+     * digunakan untuk mengautentikasi dan membatasi user yang berbeda untuk menggunakan semua fungsi sistem dalam laravel kecuali view
      *
-     * These middleware are run during every request to your application.
      *
      * @var array<int, class-string|string>
      */
